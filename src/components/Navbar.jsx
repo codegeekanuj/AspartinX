@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { menuItems } from "../Data/data";
-import {MdSunny,MdDarkMode} from "react-icons/md"
+import {MdSunny} from "react-icons/md"
 import {HiMoon} from "react-icons/hi"
 import {AiOutlineMenu,AiOutlineClose} from "react-icons/ai"
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
 
@@ -28,19 +30,21 @@ const Navbar = () => {
   }
 
 
+  
+  
 
   return (
    
-<header className=" flex justify-center z-10">
+<header  className=" flex justify-center z-10 ">
   
-  <nav className=" absolute max-w-[1536px] w-full px-6 py-2   items-center flex justify-between dark:text-white">
+  <nav  className=" absolute max-w-[1536px] w-full px-6 py-2   items-center flex justify-between dark:text-white">
 
-      <a  href="#" className="font-bold text-xl py-2  "  >Aspartin X</a>
+      <Link  to="/" className="font-bold text-xl py-2  "  >Aspartin X</Link>
 
       <div className={` font-semibold text-sm   ${menu==="open"?"absolute flex flex-col top-[100%] right-[1rem] max-sm:rounded-lg max-sm:px-4 max-sm:w-[30%] max-sm:py-3 max-sm:bg-darkBg dark:max-sm:bg-lightBg max-sm:text-center dark:max-sm:text-black max-sm:text-white max-sm:space-y-6 ":"hidden"}   sm:static sm:flex sm:flex-row  sm:justify-evenly sm:w-1/2 lg:w-1/3  `}>
 
         {menuItems.map((item)=>{
-          return<a className="max-sm:border-b max-sm:border-slate-400 sm:rounded-lg p-2 sm:hover:purple1  ease-in-out duration-100 " onClick={()=>setMenu("close")} href={item.link} key={item.name}>{item.name}</a>;
+          return<Link className="max-sm:border-b max-sm:border-slate-400 sm:rounded-lg p-2 sm:hover:purple1  ease-in-out duration-100 " onClick={()=>setMenu("close")} to={item.link} key={item.name}>{item.name}</Link>;
         })}
 
       </div>

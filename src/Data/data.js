@@ -1,18 +1,18 @@
 export const menuItems=[
     {
         name:"Home",
-        link: "#",
+        link: "/",
     },
     {
         name:"About",
-        link: "#about",
+        link: "/about",
     },
     {
         name:"Contact",
-        link: "#contact",
+        link: "/contact",
     },
     {
         name:"Services",
-        link: "#services",
+        link: "/services",
     }
 ]

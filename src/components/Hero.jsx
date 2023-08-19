@@ -2,7 +2,11 @@ import React from "react";
 import {AiOutlineDown} from "react-icons/ai"
 
 
+
+
 const Hero = () => {
+
+  
   return (
  
     <main className="flex  h-screen items-center justify-center  ">
