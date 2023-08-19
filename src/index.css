@@ -11,4 +11,7 @@
     .purple1{
         @apply bg-gradient-to-r from-purple-600 to-pink-600 text-white;
     }
+    .active{
+        @apply bg-gradient-to-r from-purple-600 to-pink-600 text-white
+    }
 }

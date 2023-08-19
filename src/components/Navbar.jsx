@@ -3,7 +3,7 @@ import { menuItems } from "../Data/data";
 import {MdSunny} from "react-icons/md"
 import {HiMoon} from "react-icons/hi"
 import {AiOutlineMenu,AiOutlineClose} from "react-icons/ai"
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className={` font-semibold text-sm   ${menu==="open"?"absolute flex flex-col top-[100%] right-[1rem] max-sm:rounded-lg max-sm:px-4 max-sm:w-[30%] max-sm:py-3 max-sm:bg-darkBg dark:max-sm:bg-lightBg max-sm:text-center dark:max-sm:text-black max-sm:text-white max-sm:space-y-6 ":"hidden"}   sm:static sm:flex sm:flex-row  sm:justify-evenly sm:w-1/2 lg:w-1/3  `}>
 
         {menuItems.map((item)=>{
-          return<Link className="max-sm:border-b max-sm:border-slate-400 sm:rounded-lg p-2 sm:hover:purple1  ease-in-out duration-100 " onClick={()=>setMenu("close")} to={item.link} key={item.name}>{item.name}</Link>;
+          return <NavLink  className={ ` ${({isActive})=> isActive ? "active":""} max-sm:border-b max-sm:border-slate-400 sm:rounded-lg p-2 sm:hover:purple1  ease-in-out duration-100 `} onClick={()=>setMenu("close")} to={item.link} key={item.name}>{item.name}</NavLink>;
         })}
 
       </div>
