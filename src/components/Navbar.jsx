@@ -29,10 +29,6 @@ const Navbar = () => {
     else setMenu("open")
   }
 
-
-  
-  
-
   return (
    
 <header  className=" flex justify-center z-10 ">
