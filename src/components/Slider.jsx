@@ -1,12 +1,25 @@
-import React from 'react'
+import React from "react";
+import { sliderItem } from "../Data/data";
+import Marquee from "react-fast-marquee";
 
 const Slider = () => {
   return (
-    <div className=''>
-     
+   <Marquee play={true} pauseOnClick={true} direction="left" speed={40} className="w-[94%] mx-auto">
+    <div className=" py-2   flex">
 
+          {sliderItem.map((item) => {
+            return (
+              <img
+              src={item.img}
+              key={item.img}
+              className="w-24 h-24 object-contain ml-32"
+              />
+              );
+            })}
     </div>
-  )
-}
+    </Marquee>
+             
+  );
+};
 
-export default Slider
+export default Slider;
