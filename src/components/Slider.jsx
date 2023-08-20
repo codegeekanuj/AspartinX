@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const Slider = () => {
   return (
    <Marquee play={true} pauseOnClick={true} direction="left" speed={40} className="w-[94%] mx-auto">
-    <div className=" py-2   flex">
+    <div className=" py-2   flex" >
 
           {sliderItem.map((item) => {
             return (
