@@ -1,8 +1,15 @@
 import React from "react";
 
 
-const Hero = () => {
+const Hero = ({timeline}) => {
 
+  const Heading = useRef(null)
+  const Heading2 = useRef(null)
+  useEffect(()=>{
+    timeline
+    .to(Heading.current,{duration:2,opacity:1})
+    .to(Heading2.current,{duration:2,delay:-2,opacity:1})
+  },[])
   
   return (
  
