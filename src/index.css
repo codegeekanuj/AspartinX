@@ -8,10 +8,7 @@
     .heading1{
         @apply bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent;
     }
-    .purple1{
+    .purple1, .active{
         @apply bg-gradient-to-r from-purple-600 to-pink-600 text-white;
-    }
-    .active{
-        @apply bg-gradient-to-r from-purple-600 to-pink-600 text-white
     }
 }
