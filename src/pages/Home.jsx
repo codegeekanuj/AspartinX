@@ -13,7 +13,6 @@ const Home = () => {
     <>
         <Hero  />
         <Slider/>
-        <div className="h-screen bg-purple-500"></div>
     </>
   )
 }

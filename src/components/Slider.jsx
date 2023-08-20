@@ -12,7 +12,7 @@ const Slider = () => {
               <img
               src={item.img}
               key={item.img}
-              className="w-24 h-24 object-contain ml-32"
+              className="w-20 h-24 object-contain ml-32"
               />
               );
             })}

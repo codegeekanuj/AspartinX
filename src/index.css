@@ -11,4 +11,21 @@
     .purple1, .active{
         @apply bg-gradient-to-r from-purple-600 to-pink-600 text-white;
     }
+    .gradient-light{
+        @apply bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100
+    }
+    .gradient-dark{
+        @apply bg-gradient-to-br from-darkBg from-10%   via-purple-950 via-70% to-darkBg to-90%
+    }
 }
+::-webkit-scrollbar {
+    width: 6.5px;
+    
+  }
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 12px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
