@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 const About = () => {
   return (
     <>
-      <div className=" h-screen flex w-full " data-aos="fade-right ">
+      <div className=" h-screen flex w-full " >
         <div className="text absolute top-56 h-80 bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-lg p-6 shadow-lg w-1/2">
           <h3 className="aboutheading text-3xl font-semibold mb-4 leading-tight tracking-tight font-serif">
             Welcome to AspartinX - Your Partner in <br /> Website Services and

@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
    
-<header  className=" flex justify-center z-10 " data-aos="fade-down">
+<header  className=" flex justify-center z-10 " >
   
   <nav  className=" absolute max-w-[1536px] w-full px-6 py-2   items-center flex justify-between dark:text-white">
 
