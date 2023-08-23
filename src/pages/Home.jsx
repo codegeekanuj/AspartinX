@@ -2,7 +2,10 @@
 
 import { useEffect } from "react"
 import Hero from "../components/Hero"
-import Slider from "../components/Slider"
+
+import TechTools from "../components/TechTools"
+import ServicesIntro from "../components/ServicesIntro"
+import GetStarted from "../components/GetStarted"
 
 
 const Home = () => {
@@ -12,7 +15,9 @@ const Home = () => {
   return (
     <>
         <Hero  />
-        <Slider/>
+        <ServicesIntro/>
+        <TechTools/>
+        <GetStarted/>
     </>
   )
 }

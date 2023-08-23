@@ -6,13 +6,12 @@ const Slider = () => {
   return (
    <Marquee play={true} pauseOnClick={true} direction="left" speed={60} className="w-[94%] mx-auto">
     <div className=" py-2   flex">
-
           {sliderItem.map((item) => {
             return (
               <img
               src={item.img}
               key={item.img}
-              className="w-20 h-24 object-contain ml-32"
+              className=" w-16 h-16 md:w-20 md:h-24 object-contain ml-8 md:ml-32"
               />
               );
             })}

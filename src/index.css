@@ -8,18 +8,18 @@
     .heading1{
         @apply bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent;
     }
-    .purple1, .active{
-        @apply bg-gradient-to-r from-purple-600 to-pink-600 text-white;
-    }
+   .active{
+    @apply bg-white/50 dark:bg-white/20 max-sm:dark:bg-black/20 ;
+   }
     .gradient-light{
         @apply bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100
     }
     .gradient-dark{
-        @apply bg-gradient-to-br from-darkBg from-10%   via-purple-950 via-70% to-darkBg to-90%
+        @apply bg-gradient-to-br from-darkBg  to-darkBg 
     }
 }
 ::-webkit-scrollbar {
-    width: 6.5px;
+    width: 6px;
     
   }
 ::-webkit-scrollbar-thumb {
