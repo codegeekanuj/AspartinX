@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "gsap": "^3.12.2",
     "locomotive-scroll": "^5.0.0-beta.8",
     "react": "^18.2.0",
