@@ -4,7 +4,7 @@ import Slider from "./Slider"
 
 const TechTools = () => {
   return (
-    <main className='flex  flex-col items-center justify-center h-[45vh] md:h-[80vh] gap-8 md:gap-14 text-center text-black dark:text-white '>
+    <main className='flex my-16  flex-col items-center justify-center h-[45vh] md:h-[80vh] gap-8 md:gap-14 text-center text-black dark:text-white '>
         <h1 className="text-2xl md:text-3xl font-bold ">Our Tech Toolbox</h1>
         <p className='text-sm md:text-md font-semibold max-md:w-[90%] text-slate-600 dark:text-slate-400'>Innovative solutions require innovative tools.<br/>At AspartinX, we blend creativity with the latest technological marvels to craft solutions that leave a mark.</p>
         <Slider/>

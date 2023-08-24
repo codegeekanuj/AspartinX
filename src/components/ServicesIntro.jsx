@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {MdOutlineAutoGraph} from "react-icons/md"
 
 const ServicesIntro = () => {
   return (
     <section >
-      <div className="container px-6 py-10 md:py-20 mx-auto dark:text-white">
+      <div className="container px-6 py-10  max-md:w-[90%] mx-auto dark:text-white bg-white/70 rounded-2xl shadow-2xl dark:bg-white/10">
 
         <div className="text-center mb-10">
           <h1 className="text-2xl md:text-3xl font-bold mb-4 ">
@@ -61,9 +60,9 @@ const ServicesIntro = () => {
             </div>
           </div>
         </div>
-        <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-700 rounded-xl text-lg">
-          <Link to={"/services"}>Explore More</Link>
-        </button>
+        <Link to={"/services"}><button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-700 rounded-xl text-lg">
+          Read More
+        </button></Link>
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     
     
-<main className='w-full min-h-[30vh]  flex max-md:flex-col dark:text-white justify-between'>
+<main className='w-full min-h-[30vh]  flex max-md:flex-col dark:text-white justify-between '>
   
   <div className="flex flex-col px-12 sm:py-6 max-sm:items-center">
     <h1 className='font-bold text-2xl py-2'><Link to={"/"}>AspartinX</Link></h1>
