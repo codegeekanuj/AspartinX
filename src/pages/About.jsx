@@ -5,29 +5,30 @@ import "aos/dist/aos.css";
 const About = () => {
   return (
     <>
-      <div className=" h-screen flex w-full " >
-        <div className="text absolute top-56 h-80 bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-lg p-6 shadow-lg w-1/2">
-          <h3 className="aboutheading text-3xl font-semibold mb-4 leading-tight tracking-tight font-serif">
-            Welcome to AspartinX - Your Partner in <br /> Website Services and
-            Video Editing
-          </h3>
-          <br />
-          <p className="text-gray-300 w-full">
-            At  <span className="text-black text-xl font-semibold">  AspartinX  </span>, we believe in the power of a captivating online
-            presence. In <br /> an era driven by visual and digital experiences, a
-            well-maintained website and engaging video content can make all the
-            difference. Our agency specializes in offering top-notch website
-            services and professional video editing to help you stand out in the
-            digital landscape.
-          </p>
-        </div>
-        <div className="photos border-2 "> 
-          <div className="img1 "></div>
-     
+    <div  className=" h-doublescreen px-20 py-20 flex-col flex  lg:flex-row  gap-24 md:h-largescreen top-14 border-black border-2 relative  md:justify-around  justify-centre">
+      <div className=" h-1/2 lg:h-96  md:w-1/3 border-black border-2 px-4 font-semibold">
+      <span className="text-3xl text-center" >Welcome to <br />ASPARTINX</span>
+      <p>
+      We are a dedicated team of creative professionals who are passionate about transforming your ideas into reality. With years of industry experience, our experts have honed their skills to perfection. Whether you're a business owner, content creator, or an individual looking to enhance your online visibility, we're here to cater to your unique needs.
 
-        </div>
+      </p>
       </div>
-      <div className="profilecards h-screen  border-2 border-black w-screen "></div>
+      <div className=" h-1/2 md:h-1/2  md:w-1/2 border-black border-2 ">
+        <div className=" ">
+          <img src="" alt="" />
+        </div>
+        <div className=" ">
+          <img src="" alt="" />
+        </div>
+        <div className=" ">
+          <img src="" alt="" />
+        </div>
+
+      </div>
+    </div> 
+    <div className="h-screen">
+
+    </div>
     </>
   );
 };
