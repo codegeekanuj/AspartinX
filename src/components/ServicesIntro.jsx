@@ -16,7 +16,7 @@ const ServicesIntro = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:py-6  md:space-y-0 space-y-6">
+        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:py-6  md:space-y-0 space-y-6 max-md:mb-2">
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center ">
             <div className="w-20 h-20 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 text-indigo-500 mb-5 flex-shrink-0">
               <img src={"https://cdn-icons-png.flaticon.com/128/1336/1336494.png"} className="object-contain w-14 h-14"/>
@@ -60,9 +60,9 @@ const ServicesIntro = () => {
             </div>
           </div>
         </div>
-        <Link to={"/services"}><button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-700 rounded-xl text-lg">
+        {/* <Link to={"/services"}><button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-700 rounded-xl text-lg">
           Read More
-        </button></Link>
+        </button></Link> */}
       </div>
     </section>
   );

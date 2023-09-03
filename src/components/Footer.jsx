@@ -7,10 +7,12 @@ const Footer = () => {
   return (
     
     
-<main className='w-full min-h-[30vh]  flex max-md:flex-col dark:text-white justify-between '>
+<main className='w-full min-h-[30vh]  flex max-md:flex-col-reverse dark:text-white justify-between '>
   
-  <div className="flex flex-col px-12 sm:py-6 max-sm:items-center">
-    <h1 className='font-bold text-2xl py-2'><Link to={"/"}>AspartinX</Link></h1>
+  <div className="flex flex-col px-12 sm:py-6 max-sm:items-center max-md:mb-4">
+    <h1 className='font-bold text-2xl py-2'><Link to={"/"}>
+      AspartinX
+    </Link></h1>
     <p className='text-sm dark:text-slate-400'>Empowering Your Business </p>
     <p className='text-sm dark:text-slate-400'>Marketing | Development | Editing</p>
     <div className='flex gap-6  py-4 dark:text-slate-400'>
@@ -38,7 +40,7 @@ const Footer = () => {
         <li><Link to={"/about"}>About Us</Link></li>
         <li><Link to={"/contact"}>Contact Us</Link></li>
         <li><Link to={"/privacy-policy"}>Privacy Policy</Link></li>
-        <li><Link to={"/terms&condition"}>Terms of Service</Link></li>
+        {/* <li><Link to={"/terms&condition"}>Terms of Service</Link></li> */}
       </ul>
     </section>
     <section className=' px-4'>
@@ -47,7 +49,7 @@ const Footer = () => {
         <li><Link to={"/pricing"}>Pricing</Link></li>
         <li><Link to={"/portfolio"}>Portfolio</Link></li>
         <li><Link to={"/testimonial"}>Testimonials</Link></li>
-        <li><Link to={"/getstarted"}>Let's Get Started</Link></li>
+        {/* <li><Link to={"/getstarted"}>Let's Get Started</Link></li> */}
       </ul>
     </section>
   </div>

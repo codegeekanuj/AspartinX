@@ -11,7 +11,7 @@ import {MdCall,MdMail} from "react-icons/md"
 
 const Contact = () => {
   return (
-    <section className=" flex justify-center items-center  ">
+    <section className=" flex justify-center items-center md:mb-8 ">
       <div className=" md:mt-16 md:w-[90%] px-6  py-14 mx-auto flex max-md:flex-col ">
         <div className="flex flex-col justify-center w-full py-8  md:w-2/3">
           <h1 className="text-2xl font-semibold text-gray-800  dark:text-white md:text-3xl">

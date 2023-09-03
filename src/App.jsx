@@ -9,6 +9,8 @@ import LocomotiveScroll from 'locomotive-scroll';
 import { useEffect, useLayoutEffect } from "react"
 import ScrollToTop from "./components/ScrollToTop"
 import ErrorPage from "./pages/ErrorPage"
+import Soon from "./pages/Soon"
+import PrivacyPolicy from "./pages/PrivacyPolicy"
 
 
 
@@ -25,6 +27,17 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="contact/" element={<Contact/>} />
           <Route path="/services" element={<Services/>} />
+          <Route path="/marketing" element={<Soon/>} />
+          <Route path="/webdev" element={<Soon/>} />
+          <Route path="/appdev" element={<Soon/>} />
+          <Route path="/editing" element={<Soon/>} />
+          <Route path="/pricing" element={<Soon/>} />
+          <Route path="/portfolio" element={<Soon/>} />
+          <Route path="/testimonial" element={<Soon/>} />
+          <Route path="/getstarted" element={<Soon/>} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+          <Route path="/terms&condition" element={<Soon/>} />
+          
           <Route path="/*" element={<ErrorPage/>} />
       </Routes>
       <Footer/>
