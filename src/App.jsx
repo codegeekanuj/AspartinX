@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop"
 import ErrorPage from "./pages/ErrorPage"
 import Soon from "./pages/Soon"
 import PrivacyPolicy from "./pages/PrivacyPolicy"
+import Pricing from "./pages/Pricing"
 
 
 
@@ -31,7 +32,7 @@ function App() {
           <Route path="/webdev" element={<Soon/>} />
           <Route path="/appdev" element={<Soon/>} />
           <Route path="/editing" element={<Soon/>} />
-          <Route path="/pricing" element={<Soon/>} />
+          <Route path="/pricing" element={<Pricing/>} />
           <Route path="/portfolio" element={<Soon/>} />
           <Route path="/testimonial" element={<Soon/>} />
           <Route path="/getstarted" element={<Soon/>} />
