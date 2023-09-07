@@ -3,7 +3,7 @@ import { FaCaretRight } from "react-icons/fa6";
 
 const Pricing = () => {
   return (
-    <section className="dark:text-white min-h-screen flex flex-col justify- items-center  ">
+    <section className="dark:text-white min-h-screen flex flex-col justify- items-center pt-12 ">
       <h1 className="text-2xl md:text-3xl font-bold my-4 ">Pricing</h1>
 
       <div class="flex flex-wrap flex-row justify-center items-start w-full px-32 pt-16 pb-8 gap-10">
