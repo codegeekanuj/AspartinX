@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="flex flex-col dark:text-slate-400 ">
             <div className="flex justify-left items-center gap-4 mt-4 ">
                 <MdCall size={28}/>
-                <p>+91 72688-54798</p>
+                <p>+91 72688-54798, +91 83035-57404</p>
               </div>
               <div className="flex justify-left items-center gap-4 mt-4">
                 <MdMail size={28}/>
@@ -56,7 +56,7 @@ const Contact = () => {
 
         <div className=" md:w-1/2 bg-white flex flex-col py-8 rounded-xl shadow-xl px-6 w-full ">
           <div className=" mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+            <label  className="leading-7 text-sm text-gray-600">
               Name
             </label>
             <input
@@ -66,7 +66,7 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+            <label className="leading-7 text-sm text-gray-600">
               Email
             </label>
             <input
@@ -76,7 +76,7 @@ const Contact = () => {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="message" className="leading-7 text-sm text-gray-600">
+            <label  className="leading-7 text-sm text-gray-600">
               Message
             </label>
             <textarea
