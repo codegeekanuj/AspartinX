@@ -55,7 +55,7 @@ const About = () => {
               <p>Founder</p>
               <div className="flex justify-center mt-4 space-x-4 dark:text-slate-400">
               <a href='https://www.instagram.com/shivay1256'><AiFillInstagram size={24}/></a>
-              <a href='https://www.linkedin.com/shivaydv'><AiFillLinkedin size={24}/></a>
+              <a href='https://www.linkedin.com/in/shivaydv/'><AiFillLinkedin size={24}/></a>
               <a href='https://twitter.com/shivay1256'><AiOutlineTwitter size={24}/></a>
               <a href='mailto: shivaydv1256@gmail.com'><AiOutlineMail size={24}/></a>
               </div>
