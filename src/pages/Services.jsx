@@ -7,7 +7,7 @@ const Services = () => {
 
 
   return (
-    <div className='h-screen w-full flex justify-center items-center max-md:mt-40 max-md:mb-24  '> 
+    <div className='min-h-screen w-full flex justify-center items-center max-md:mt-20   '> 
     <ServicesIntro />
     </div>
   )
