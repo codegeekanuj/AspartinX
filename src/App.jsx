@@ -12,6 +12,7 @@ import ErrorPage from "./pages/ErrorPage"
 import Soon from "./pages/Soon"
 import PrivacyPolicy from "./pages/PrivacyPolicy"
 import Pricing from "./pages/Pricing"
+import { Toaster } from "react-hot-toast"
 
 
 
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <Router>
+      <Toaster/>
       <ScrollToTop/>
       <Navbar/>
       <Routes>
