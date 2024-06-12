@@ -18,6 +18,9 @@
         @apply bg-gradient-to-br from-darkBg  to-darkBg 
     }
 }
+
+/* .dsa.,mdn,msnbda, */
+
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
